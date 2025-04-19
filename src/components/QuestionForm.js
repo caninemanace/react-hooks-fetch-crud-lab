@@ -20,6 +20,7 @@ function QuestionForm(props) {
   function handleSubmit(event) {
     event.preventDefault();
     console.log(formData);
+    // You can implement a POST request to add the new question to the server here
   }
 
   return (
@@ -91,3 +92,4 @@ function QuestionForm(props) {
 }
 
 export default QuestionForm;
+
